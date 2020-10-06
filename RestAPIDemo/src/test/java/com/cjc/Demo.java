@@ -18,8 +18,8 @@ public class Demo
 		
 		res.contentType();
 		
-		String bodyrs =res.getBody().asString();
-		System.out.println("Body Data"+bodyrs);
+		String bodyresponse =res.getBody().asString();
+		System.out.println("Body Data"+bodyresponse);
 		
 		int status = res.getStatusCode();
 		Assert.assertEquals(status, 200);
